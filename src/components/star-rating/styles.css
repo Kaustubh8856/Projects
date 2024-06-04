@@ -1,0 +1,17 @@
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100vw;
+  height: 100vh;
+  gap: 10px;
+  font-size: 50px;
+  border-color: rgb(243, 243, 208);
+}
+.active {
+  color: brown;
+}
+.inactive{
+    color: black;
+}
