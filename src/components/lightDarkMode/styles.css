@@ -26,10 +26,11 @@
   border: none;
   outline: none;
   font-size: 24px;
-  border-radius: 10px;
+  border-radius: 14px;
   padding: 10px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  font-weight: 400;
 }
 .darkTheme button {
   background-color: white;
@@ -37,8 +38,9 @@
   border: none;
   outline: none;
   font-size: 24px;
-  border-radius: 10px;
+  border-radius: 14px;
   padding: 10px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+  font-weight: 400;
 }

@@ -5,6 +5,7 @@ import LoadMore from "./components/loadMore/index.js";
 import RandomColor from "./components/random-color/index.jsx";
 import StarRating from "./components/star-rating/index.jsx";
 import LightDark from "./components/lightDarkMode/index.js";
+import ScrollIndicator from "./components/scrollIndicator/index.js";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         limit={"10"}
       /> */}
       {/* <LoadMore/> */}
-      <LightDark />
+      {/* <LightDark /> */}
+      <ScrollIndicator url={fetch("https://dummyjson.com/products")} />
     </div>
   );
 }
