@@ -4,6 +4,7 @@ import ImageSlider from "./components/image-slider/index.jsx";
 import LoadMore from "./components/loadMore/index.js";
 import RandomColor from "./components/random-color/index.jsx";
 import StarRating from "./components/star-rating/index.jsx";
+import LightDark from "./components/lightDarkMode/index.js";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         page={"1"}
         limit={"10"}
       /> */}
-      <LoadMore/>
+      {/* <LoadMore/> */}
+      <LightDark />
     </div>
   );
 }
