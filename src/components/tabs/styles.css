@@ -1,0 +1,33 @@
+.wrapper{
+    padding: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.tabItem{
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background-color: #4e0164;
+}
+.tabItem.active{
+    border-color: #000;
+    background-color: #a1d600;
+    color: #fff;
+}
+.content{
+    padding: 20px 10px;
+    height: 30px;
+    background-color: white;
+    overflow: hidden;
+    color: red;
+    font-size: 20px;
+    
+}

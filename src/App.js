@@ -6,6 +6,7 @@ import RandomColor from "./components/random-color/index.jsx";
 import StarRating from "./components/star-rating/index.jsx";
 import LightDark from "./components/lightDarkMode/index.js";
 import ScrollIndicator from "./components/scrollIndicator/index.js";
+import TabTest from "./components/tabs/TabTest.js";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       /> */}
       {/* <LoadMore/> */}
       {/* <LightDark /> */}
-      <ScrollIndicator url={fetch("https://dummyjson.com/products")} />
+      {/* <ScrollIndicator url={fetch("https://dummyjson.com/products")} /> */}
+      <TabTest />
     </div>
   );
 }
