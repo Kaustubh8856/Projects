@@ -1,0 +1,49 @@
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+.modalContent {
+  position: relative;
+  background-color: aliceblue;
+  margin: auto;
+  padding: 0;
+  border: 1px solid red;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.closeModelIcon {
+  font-size: 40px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+}
+.header {
+  background-color: aqua;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+  background-color: bisque;
+}

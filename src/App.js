@@ -7,6 +7,7 @@ import StarRating from "./components/star-rating/index.jsx";
 import LightDark from "./components/lightDarkMode/index.js";
 import ScrollIndicator from "./components/scrollIndicator/index.js";
 import TabTest from "./components/tabs/TabTest.js";
+import ModalTest from "./components/image-slider/modal/modal-test.js";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <LoadMore/> */}
       {/* <LightDark /> */}
       {/* <ScrollIndicator url={fetch("https://dummyjson.com/products")} /> */}
-      <TabTest />
+      {/* <TabTest /> */}
+      <ModalTest/>
     </div>
   );
 }
